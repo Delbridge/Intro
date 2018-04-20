@@ -1,0 +1,8 @@
+box2 {
+    margin-top: top 50px;
+    position: relative;
+    width: 100px;
+    height:100px; 
+    background-color: purple;
+    animation: sliding 5s ease-out 1s;/*1 normal forwards;*//* animation to be animated*/
+    
