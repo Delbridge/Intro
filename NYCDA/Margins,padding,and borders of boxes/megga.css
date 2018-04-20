@@ -1,0 +1,33 @@
+.box1 
+{width: 400px;
+height: 200px;
+background-color: purple;
+border: 2px solid;
+margin: 0px auto;
+} 
+.box2{
+    width:250px;
+    height: 100px;
+    background-color:orange;
+    border: 2px solid;
+    margin: 50px auto;
+}
+.box3{
+width: 150px;
+height:50px;
+background-color: black;
+border:2px solid;
+margin: 20px auto;
+}
+.text{font-size: 30px;
+}
+/* spand{color:green; */
+/* font-size:20px;} */
+strong{color:green}
+.a,.b,.c{
+    border:2px orange;
+    display:block;
+    float: left;
+    /*float kills the...//
+    //*if parental or div collaspes try hiiden or overflow//
+}

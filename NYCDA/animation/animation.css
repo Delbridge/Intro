@@ -1,0 +1,50 @@
+/*element{
+    [transtion] [property][ease][delay]
+}
+/* ease-how fast the aniimation may take place*/
+/*property= design
+delay gives the option to delay the start of the animation*/
+
+.box{
+width:100px;
+ height:100px;
+ background-color:orange;
+ transition: height 1s, width 1s;
+
+}
+/*[timing-function] [iteration-count][name][duration][delay][]used in anima*/
+.box:hover{
+        height:200px;
+        width:200px;
+        
+}
+.box2 {
+    margin-top: top 50px;
+    position: relative;
+    width: 100px;
+    height:100px; 
+    background-color: purple;
+    animation: sliding 5s ease-out 1s;/*1 normal forwards;*//* animation to be animated*/
+    
+}
+.box2:hover{
+
+    animation-play-state: running;
+}
+
+@keyframes sliding/*Name match*/{
+    0%{
+        top:0;
+        left:100px
+    }
+    50%{
+        top:100px;
+        left:100px;
+        background-color:green;
+    }
+    100%{
+      top:100px;
+      left:100px;
+      background-color:blue;
+    }
+}

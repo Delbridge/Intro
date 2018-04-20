@@ -1,0 +1,44 @@
+/* a global-if wanting to kill white space...*/
+*{
+ margin: 0;
+ padding: 0;
+}
+
+.wrapper{
+    width: 900px;
+    border: 2px;
+    margin: 0 auto;
+    /*height:600px*/
+    overflow: hidden;
+}
+/*.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    border: 2px;*/
+    
+.column1{
+    border: 2px solid green;
+    width: 440px;
+    margin: 0 auto;
+    float: left;
+
+}
+.column2{
+    border: 2px solid purple;
+    width: 440px;
+    margin: 0 auto;
+    float: left;
+}
+.image{
+    float: left;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+.fixed{
+    background-color: turquoise;
+    display: inline-block;
+    position: relative;
+    right: 200px;
+}

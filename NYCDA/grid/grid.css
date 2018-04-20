@@ -1,0 +1,39 @@
+.wrapper{
+    width:90%;
+    margin:0 auto;
+    border: 2px soild violet;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /*grid-row-gap:5px;*/
+    /*grid-column-gap:5px;*/
+    grid-gap: 6px;/*Use this and the lower one instead*/
+    grid-auto-rows: 100px;
+
+}
+.box{
+    background-color: silver;
+    border: 2px solid midnightblue;
+    /*height: 100px;- don't define with height for it is set and the boxes in other rows will not size*/
+}
+.d{
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end: 3;
+}
+.h{
+    grid-column-start: 3;
+    grid-column-end:4;
+}
+.e{
+    border:2px solid maroon;
+    background-color: maroon;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.f{
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
