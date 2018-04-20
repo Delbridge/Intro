@@ -2,3 +2,18 @@ body
 {
 	background-color: red;
 }
+@keyframes sliding/*Name match*/{
+    0%{
+        top:0;
+        left:100px
+    }
+    50%{
+        top:100px;
+        left:100px;
+        background-color:green;
+    }
+    100%{
+      top:100px;
+      left:100px;
+      background-color:blue;
+  }
